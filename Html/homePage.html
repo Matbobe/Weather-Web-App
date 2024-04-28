@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Page météo de ta ville</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="Javascript/script.js"></script>
+  </head>
+  <body>
+    <div class="group-search">
+      <form id="form">
+        <div id="search">
+          <input type="text" placeholder="Entrer une ville" id="inputCity" />
+        </div>
+        <div id="button">
+          <button type="submit" id="buttonSearch">Rechercher</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="box-container"></div>
+
+    <div class="weather-box">
+      <div id="currentDate"></div>
+      <div id="currentDay"></div>
+      <div id="location"></div>
+
+      <div class="weather">
+        <img src="\images\clear.png" class="weather-icon" />
+        <div id="temp"></div>
+        <div id="desc"></div>
+      </div>
+
+      <div class="details">
+        <div class="col">
+          <img src="\images\humidity.png" />
+          <div id="humidity"></div>
+        </div>
+        <div class="col">
+          <img src="\images\wind.png" />
+          <div id="wind"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
